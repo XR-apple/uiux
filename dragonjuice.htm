@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Fruit Juice | Pure Exotica</title>
+    <meta name="description"
+        content="Experience the vibrant taste and incredible health benefits of our premium 100% natural Dragon Fruit Juice.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="spinner"></div>
+        <p>Juicing...</p>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">DragonJuice.</div>
+        <ul class="nav-links">
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#order" class="btn-primary">Order Now</a></li>
+        </ul>
+    </nav>
+
+    <div class="animation-container">
+        <canvas id="hero-canvas"></canvas>
+    </div>
+
+    <main class="content-overlay">
+        <section class="hero-section" id="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">Vibrant.<br><i>Exotic.</i><br>Pure.</h1>
+                <p class="subtitle reveal-text">Taste the magic of 100% natural red dragon fruit, cold-pressed to
+                    perfection.</p>
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits-section" id="benefits">
+            <div class="container">
+                <h2 class="section-title reveal-up">Why Dragon Fruit?</h2>
+                <div class="benefits-grid">
+                    <div class="glass-card reveal-up" style="transition-delay: 0.1s">
+                        <div class="icon">✨</div>
+                        <h3>Antioxidant Rich</h3>
+                        <p>Packed with vitamin C and rare antioxidants like betalains to boost your immune system and
+                            skin health.</p>
+                    </div>
+                    <div class="glass-card reveal-up" style="transition-delay: 0.2s">
+                        <div class="icon">❤️</div>
+                        <h3>Heart Healthy</h3>
+                        <p>Naturally fat-free and high in fiber. The tiny black seeds are rich in omega-3 and omega-9
+                            fatty acids.</p>
+                    </div>
+                    <div class="glass-card reveal-up" style="transition-delay: 0.3s">
+                        <div class="icon">🦠</div>
+                        <h3>Promotes Gut Health</h3>
+                        <p>Contains powerful prebiotic carbohydrates (oligosaccharides) that stimulate the growth of
+                            beneficial gut bacteria, enhancing digestion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ingredients-section" id="ingredients">
+            <div class="container">
+                <div class="ingredients-content glass-card reveal-up">
+                    <h2 class="section-title">Nothing to Hide</h2>
+                    <ul class="ingredient-list">
+                        <li><strong>100%</strong> Cold-Pressed Red Dragon Fruit</li>
+                        <li><strong>0%</strong> Added Sugar</li>
+                        <li><strong>0%</strong> Preservatives</li>
+                    </ul>
+                    <p class="disclaimer">That's it. We believe nature got it right the first time.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="order-section" id="order">
+            <div class="container center-text reveal-up">
+                <h2 class="section-title">Ready for a Taste?</h2>
+                <p>Join the waitlist for our next exclusive batch of DragonJuice.</p>
+                <form class="order-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn-primary">Get Notified</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 DragonJuice. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
